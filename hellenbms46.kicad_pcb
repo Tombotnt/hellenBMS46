@@ -104,6 +104,7 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(grid_origin 80 158)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -4600,7 +4601,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F.Cu" "In1.Cu" "In2.Cu" "B.Cu")
 			(uuid "9a90d04d-69dc-4ee0-adbb-65132620f5cd")
 			(hatch edge 0.508)
 			(connect_pads
@@ -5992,7 +5993,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F.Cu" "In1.Cu" "In2.Cu" "B.Cu")
 			(uuid "70db67b9-03ca-4a36-a934-f8c6eb1d8910")
 			(hatch edge 0.508)
 			(connect_pads
@@ -8148,7 +8149,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F.Cu" "In1.Cu" "In2.Cu" "B.Cu")
 			(uuid "092b90ad-9b7d-4736-a930-5a2569ee5f91")
 			(hatch edge 0.508)
 			(connect_pads
@@ -10024,7 +10025,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F.Cu" "In1.Cu" "In2.Cu" "B.Cu")
 			(uuid "7b1d1380-6750-4a50-a2ef-6375201302bb")
 			(hatch edge 0.5)
 			(connect_pads
@@ -11101,7 +11102,7 @@
 		(zone
 			(net 0)
 			(net_name "")
-			(layers "*.Cu")
+			(layers "F.Cu" "In1.Cu" "In2.Cu" "B.Cu")
 			(uuid "36c9eb50-4d6e-4e6b-87a0-5dbc6a125e3f")
 			(hatch edge 0.508)
 			(connect_pads

@@ -536,11 +536,95 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FITTED",
+          "name": "FITTED",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MyComment",
+          "name": "MyComment",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGEREFERENCE",
+          "name": "PACKAGEREFERENCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PUBLISHER",
+          "name": "PUBLISHER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER 1",
+          "name": "SUPPLIER 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER 2",
+          "name": "SUPPLIER 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER 3",
+          "name": "SUPPLIER 3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART NUMBER 1",
+          "name": "SUPPLIER PART NUMBER 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART NUMBER 2",
+          "name": "SUPPLIER PART NUMBER 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART NUMBER 3",
+          "name": "SUPPLIER PART NUMBER 3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TYPE",
+          "name": "TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Opis",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -573,7 +657,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "gerber/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
