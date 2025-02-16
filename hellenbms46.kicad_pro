@@ -475,12 +475,12 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "gerber/",
+      "pos_files": "gerber/",
       "specctra_dsn": "",
       "step": "hellenbms46.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "gerber/hellenbms46.wrl"
     },
     "page_layout_descr_file": ""
   },
