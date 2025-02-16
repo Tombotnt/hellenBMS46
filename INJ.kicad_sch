@@ -683,7 +683,6 @@
 	(hierarchical_label "OUT3"
 		(shape output)
 		(at 113.03 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -695,7 +694,6 @@
 	(hierarchical_label "OUT1"
 		(shape output)
 		(at 113.03 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -707,7 +705,6 @@
 	(hierarchical_label "IN4"
 		(shape input)
 		(at 176.53 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -719,7 +716,6 @@
 	(hierarchical_label "IN2"
 		(shape input)
 		(at 176.53 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -731,7 +727,6 @@
 	(hierarchical_label "IN1"
 		(shape input)
 		(at 201.93 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -743,7 +738,6 @@
 	(hierarchical_label "IN3"
 		(shape input)
 		(at 201.93 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -755,7 +749,6 @@
 	(hierarchical_label "OUT2"
 		(shape output)
 		(at 113.03 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -767,7 +760,6 @@
 	(hierarchical_label "OUT4"
 		(shape output)
 		(at 113.03 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -785,7 +777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "113e0145-5ee0-41d1-8599-7f26a47924f7")
-		(property "Reference" "#PWR0503"
+		(property "Reference" "#PWR05003"
 			(at 166.37 86.36 0)
 			(effects
 				(font
@@ -835,7 +827,7 @@
 		(instances
 			(project "uaefi"
 				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/cc5831c7-f9e2-4f1c-a3eb-62e5fbf6025f"
-					(reference "#PWR0503")
+					(reference "#PWR05003")
 					(unit 1)
 				)
 			)
@@ -857,7 +849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ced0bc2-8b56-4437-9767-a32dac9f2b25")
-		(property "Reference" "#PWR0504"
+		(property "Reference" "#PWR05002"
 			(at 118.11 107.95 0)
 			(effects
 				(font
@@ -907,7 +899,7 @@
 		(instances
 			(project "uaefi"
 				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/cc5831c7-f9e2-4f1c-a3eb-62e5fbf6025f"
-					(reference "#PWR0504")
+					(reference "#PWR05002")
 					(unit 1)
 				)
 			)
@@ -929,7 +921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57264c8c-ea68-43f2-b549-946e46c432ad")
-		(property "Reference" "U501"
+		(property "Reference" "U5001"
 			(at 134.62 57.15 0)
 			(effects
 				(font
@@ -1008,7 +1000,7 @@
 		(instances
 			(project "uaefi"
 				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/cc5831c7-f9e2-4f1c-a3eb-62e5fbf6025f"
-					(reference "U501")
+					(reference "U5001")
 					(unit 1)
 				)
 			)
@@ -1100,7 +1092,7 @@
 			)
 			(project "alphax_8ch"
 				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/cc5831c7-f9e2-4f1c-a3eb-62e5fbf6025f"
-					(reference "R503")
+					(reference "R5004")
 					(unit 1)
 				)
 			)
@@ -1122,7 +1114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7692aee6-7889-467d-b30e-1eef65696b24")
-		(property "Reference" "U502"
+		(property "Reference" "U5002"
 			(at 134.62 83.82 0)
 			(effects
 				(font
@@ -1201,7 +1193,7 @@
 		(instances
 			(project "uaefi"
 				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/cc5831c7-f9e2-4f1c-a3eb-62e5fbf6025f"
-					(reference "U502")
+					(reference "U5002")
 					(unit 1)
 				)
 			)
@@ -1222,7 +1214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b28f8288-835e-48e5-87d7-9109d3aa2212")
-		(property "Reference" "#PWR0506"
+		(property "Reference" "#PWR05004"
 			(at 166.37 113.03 0)
 			(effects
 				(font
@@ -1272,7 +1264,7 @@
 		(instances
 			(project "uaefi"
 				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/cc5831c7-f9e2-4f1c-a3eb-62e5fbf6025f"
-					(reference "#PWR0506")
+					(reference "#PWR05004")
 					(unit 1)
 				)
 			)
@@ -1293,7 +1285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c49edc10-f893-4f38-abf2-1b466748cc26")
-		(property "Reference" "#PWR0502"
+		(property "Reference" "#PWR05005"
 			(at 189.23 81.28 0)
 			(effects
 				(font
@@ -1343,7 +1335,7 @@
 		(instances
 			(project "uaefi"
 				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/cc5831c7-f9e2-4f1c-a3eb-62e5fbf6025f"
-					(reference "#PWR0502")
+					(reference "#PWR05005")
 					(unit 1)
 				)
 			)
@@ -1364,7 +1356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7f958da-0a90-477f-9139-dbb5765b7b8c")
-		(property "Reference" "#PWR0505"
+		(property "Reference" "#PWR05006"
 			(at 189.23 107.95 0)
 			(effects
 				(font
@@ -1414,7 +1406,7 @@
 		(instances
 			(project "uaefi"
 				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/cc5831c7-f9e2-4f1c-a3eb-62e5fbf6025f"
-					(reference "#PWR0505")
+					(reference "#PWR05006")
 					(unit 1)
 				)
 			)
@@ -1506,7 +1498,7 @@
 			)
 			(project "alphax_8ch"
 				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/cc5831c7-f9e2-4f1c-a3eb-62e5fbf6025f"
-					(reference "R502")
+					(reference "R5001")
 					(unit 1)
 				)
 			)
@@ -1598,7 +1590,7 @@
 			)
 			(project "alphax_8ch"
 				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/cc5831c7-f9e2-4f1c-a3eb-62e5fbf6025f"
-					(reference "R504")
+					(reference "R5002")
 					(unit 1)
 				)
 			)
@@ -1690,7 +1682,7 @@
 			)
 			(project "alphax_8ch"
 				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/cc5831c7-f9e2-4f1c-a3eb-62e5fbf6025f"
-					(reference "R501")
+					(reference "R5003")
 					(unit 1)
 				)
 			)
@@ -1712,7 +1704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff002f4b-6013-4ba6-adaa-09679b575285")
-		(property "Reference" "#PWR0501"
+		(property "Reference" "#PWR05001"
 			(at 118.11 81.28 0)
 			(effects
 				(font
@@ -1762,7 +1754,7 @@
 		(instances
 			(project "uaefi"
 				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/cc5831c7-f9e2-4f1c-a3eb-62e5fbf6025f"
-					(reference "#PWR0501")
+					(reference "#PWR05001")
 					(unit 1)
 				)
 			)
