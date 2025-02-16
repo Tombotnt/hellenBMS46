@@ -1,0 +1,249 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "92ba706f-34f7-46cd-af88-2e1ff7aca489")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 81.28 64.77) (xy 148.59 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ffe6ba-49ba-4b4d-ba11-1fb2f48956d9")
+	)
+	(bus
+		(pts
+			(xy 81.28 68.58) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d34c1d-7a2c-4a93-af89-d59b9044183a")
+	)
+	(bus
+		(pts
+			(xy 81.28 73.66) (xy 148.59 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9095941e-e9d8-470b-8f57-4054db40c7c5")
+	)
+	(bus
+		(pts
+			(xy 81.28 77.47) (xy 148.59 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c293ed9c-759e-4bdd-874f-8a0f78df2b88")
+	)
+	(wire
+		(pts
+			(xy 81.28 81.28) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3199f1c-9d71-45b9-a2ed-2ef83ba6e2c1")
+	)
+	(sheet
+		(at 38.1 38.1)
+		(size 43.18 77.47)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6bddff48-9623-45eb-b2bf-a86873f5d3f3")
+		(property "Sheetname" "conn"
+			(at 38.1 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "conn.kicad_sch"
+			(at 38.1 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IGN_OUT[1..4]" input
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eb3a48ee-9375-4849-be97-a17de7f0b2eb")
+		)
+		(pin "LSU{H+ Rtrim Ip Vm Un}" output
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4c00dd4f-ebf4-4d07-b633-b02ad67c0edb")
+		)
+		(pin "INJ_OUT[1..4]" input
+			(at 81.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5a5cbae8-0977-408c-b2ef-0d246340471b")
+		)
+		(pin "KNOCK[1..2]" input
+			(at 81.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "344ac89d-1d64-4e9c-93ad-f4ef6fe070e8")
+		)
+		(pin "LIN" bidirectional
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "171d92d4-0c56-4c32-b320-f7c3a2c86996")
+		)
+		(instances
+			(project "hellenbms46"
+				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 60.96)
+		(size 52.07 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "908e7c38-dd3a-46e3-88c1-4637776bd8a8")
+		(property "Sheetname" "rusefi"
+			(at 148.59 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rusefi.kicad_sch"
+			(at 148.59 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IGN_OUT[1..4]" output
+			(at 148.59 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f65abe75-76db-428c-b9b1-b23d69342a19")
+		)
+		(pin "INJ_OUT[1..4]" output
+			(at 148.59 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0320ca4b-788c-4644-8d43-28468b8ffee4")
+		)
+		(pin "LSU{H+ Rtrim Ip Vm Un}" output
+			(at 148.59 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa407149-be13-4b47-8d6b-5d108454ba32")
+		)
+		(pin "KNOCK[1..2]" output
+			(at 148.59 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0de8a7a0-6f15-4970-b820-2054f28e0711")
+		)
+		(pin "LIN" bidirectional
+			(at 148.59 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "007d29a9-1bf3-4496-b726-cade10b745c4")
+		)
+		(pin "KNOCK_AUDIO" bidirectional
+			(at 148.59 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0b22ddeb-e82d-4134-9c64-42d6f6fd93bb")
+		)
+		(instances
+			(project "hellenbms46"
+				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
