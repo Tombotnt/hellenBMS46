@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellenBMS46/hellenBMS46/hellenbms46.kicad_sch</source>
-    <date>2025-02-20T16:44:34+0000</date>
+    <date>2025-02-20T18:22:34+0000</date>
     <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -991,14 +991,14 @@
       <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
-        <field name="LCSC"/>
+        <field name="LCSC">C462128</field>
         <field name="MyComment"/>
         <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C462128"/>
       <property name="MyComment" value=""/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN.kicad_sch"/>
@@ -1010,14 +1010,14 @@
       <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
-        <field name="LCSC"/>
+        <field name="LCSC">C462128</field>
         <field name="MyComment"/>
         <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C462128"/>
       <property name="MyComment" value=""/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN.kicad_sch"/>
@@ -1029,14 +1029,14 @@
       <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
-        <field name="LCSC"/>
+        <field name="LCSC">C462128</field>
         <field name="MyComment"/>
         <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C462128"/>
       <property name="MyComment" value=""/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN.kicad_sch"/>
@@ -1048,14 +1048,14 @@
       <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
-        <field name="LCSC"/>
+        <field name="LCSC">C462128</field>
         <field name="MyComment"/>
         <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C462128"/>
       <property name="MyComment" value=""/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN.kicad_sch"/>
@@ -1225,14 +1225,16 @@
     </comp>
     <comp ref="C6001">
       <value>10n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>hellen-one-common:C0805</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="LCSC">C597285</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C597285"/>
       <property name="Sheetname" value="KnockAmps"/>
       <property name="Sheetfile" value="knockamps.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -1242,14 +1244,16 @@
     </comp>
     <comp ref="C6002">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>hellen-one-common:C0805</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="LCSC">C440198</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C440198"/>
       <property name="Sheetname" value="KnockAmps"/>
       <property name="Sheetfile" value="knockamps.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -1259,14 +1263,16 @@
     </comp>
     <comp ref="C6003">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>hellen-one-common:C0805</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="LCSC">C440198</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C440198"/>
       <property name="Sheetname" value="KnockAmps"/>
       <property name="Sheetfile" value="knockamps.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -1310,11 +1316,13 @@
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</datasheet>
       <description>1MHz, Low-Power Op Amp, SOIC-8</description>
       <fields>
+        <field name="LCSC">C636235</field>
         <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</field>
         <field name="Description">1MHz, Low-Power Op Amp, SOIC-8</field>
       </fields>
       <libsource lib="Amplifier_Operational" part="MCP6002-xSN" description="1MHz, Low-Power Op Amp, SOIC-8"/>
+      <property name="LCSC" value="C636235"/>
       <property name="Sheetname" value="KnockAmps"/>
       <property name="Sheetfile" value="knockamps.kicad_sch"/>
       <property name="ki_keywords" value="dual opamp"/>
@@ -1519,11 +1527,13 @@
       <footprint>hellen-one-common:C0805</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="LCSC">C440198</field>
         <field name="Footprint">hellen-one-common:C0805</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C440198"/>
       <property name="Sheetname" value="OUT PP"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -1536,11 +1546,13 @@
       <footprint>hellen-one-common:C0805</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="LCSC">C597285</field>
         <field name="Footprint">hellen-one-common:C0805</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C597285"/>
       <property name="Sheetname" value="OUT PP"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -1553,11 +1565,13 @@
       <footprint>hellen-one-common:C0805</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="LCSC">C597285</field>
         <field name="Footprint">hellen-one-common:C0805</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C597285"/>
       <property name="Sheetname" value="OUT PP"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -1570,11 +1584,13 @@
       <footprint>hellen-one-common:R0603</footprint>
       <description>Resistor</description>
       <fields>
+        <field name="LCSC">C21190</field>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C21190"/>
       <property name="Sheetname" value="OUT PP"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1587,11 +1603,13 @@
       <footprint>hellen-one-common:R0603</footprint>
       <description>Resistor</description>
       <fields>
+        <field name="LCSC">C21190</field>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C21190"/>
       <property name="Sheetname" value="OUT PP"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1604,11 +1622,13 @@
       <footprint>hellen-one-common:R0603</footprint>
       <description>Resistor</description>
       <fields>
+        <field name="LCSC">C98220</field>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C98220"/>
       <property name="Sheetname" value="OUT PP"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1621,11 +1641,13 @@
       <footprint>hellen-one-common:R0603</footprint>
       <description>Resistor</description>
       <fields>
+        <field name="LCSC">C98220</field>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C98220"/>
       <property name="Sheetname" value="OUT PP"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1639,11 +1661,13 @@
       <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf</datasheet>
       <description>1.5A Dual High-Speed Power MOSFET Drivers, 4.5...18V supply, TTL/CMOS compatible inputs, non-inverting drivers, SOIC-8</description>
       <fields>
+        <field name="LCSC">C636893</field>
         <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf</field>
         <field name="Description">1.5A Dual High-Speed Power MOSFET Drivers, 4.5...18V supply, TTL/CMOS compatible inputs, non-inverting drivers, SOIC-8</field>
       </fields>
       <libsource lib="Driver_FET" part="TC4427xOA" description="1.5A Dual High-Speed Power MOSFET Drivers, 4.5...18V supply, TTL/CMOS compatible inputs, non-inverting drivers, SOIC-8"/>
+      <property name="LCSC" value="C636893"/>
       <property name="Sheetname" value="OUT PP"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="ESD push-pull"/>
@@ -1656,11 +1680,13 @@
       <footprint>hellen-one-common:C0805</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="LCSC">C440198</field>
         <field name="Footprint">hellen-one-common:C0805</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C440198"/>
       <property name="Sheetname" value="OUT PP1"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -1673,11 +1699,13 @@
       <footprint>hellen-one-common:C0805</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="LCSC">C597285</field>
         <field name="Footprint">hellen-one-common:C0805</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C597285"/>
       <property name="Sheetname" value="OUT PP1"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -1690,11 +1718,13 @@
       <footprint>hellen-one-common:C0805</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="LCSC">C597285</field>
         <field name="Footprint">hellen-one-common:C0805</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C597285"/>
       <property name="Sheetname" value="OUT PP1"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -1707,11 +1737,13 @@
       <footprint>hellen-one-common:R0603</footprint>
       <description>Resistor</description>
       <fields>
+        <field name="LCSC">C21190</field>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C21190"/>
       <property name="Sheetname" value="OUT PP1"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1724,11 +1756,13 @@
       <footprint>hellen-one-common:R0603</footprint>
       <description>Resistor</description>
       <fields>
+        <field name="LCSC">C21190</field>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C21190"/>
       <property name="Sheetname" value="OUT PP1"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1741,11 +1775,13 @@
       <footprint>hellen-one-common:R0603</footprint>
       <description>Resistor</description>
       <fields>
+        <field name="LCSC">C98220</field>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C98220"/>
       <property name="Sheetname" value="OUT PP1"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1758,11 +1794,13 @@
       <footprint>hellen-one-common:R0603</footprint>
       <description>Resistor</description>
       <fields>
+        <field name="LCSC">C98220</field>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C98220"/>
       <property name="Sheetname" value="OUT PP1"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1776,11 +1814,13 @@
       <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf</datasheet>
       <description>1.5A Dual High-Speed Power MOSFET Drivers, 4.5...18V supply, TTL/CMOS compatible inputs, non-inverting drivers, SOIC-8</description>
       <fields>
+        <field name="LCSC">C636893</field>
         <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf</field>
         <field name="Description">1.5A Dual High-Speed Power MOSFET Drivers, 4.5...18V supply, TTL/CMOS compatible inputs, non-inverting drivers, SOIC-8</field>
       </fields>
       <libsource lib="Driver_FET" part="TC4427xOA" description="1.5A Dual High-Speed Power MOSFET Drivers, 4.5...18V supply, TTL/CMOS compatible inputs, non-inverting drivers, SOIC-8"/>
+      <property name="LCSC" value="C636893"/>
       <property name="Sheetname" value="OUT PP1"/>
       <property name="Sheetfile" value="outpp.kicad_sch"/>
       <property name="ki_keywords" value="ESD push-pull"/>
@@ -1810,14 +1850,14 @@
       <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
-        <field name="LCSC"/>
+        <field name="LCSC">C462128</field>
         <field name="MyComment"/>
         <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C462128"/>
       <property name="MyComment" value=""/>
       <property name="Sheetname" value="NBO2H"/>
       <property name="Sheetfile" value="nbo2h.kicad_sch"/>
