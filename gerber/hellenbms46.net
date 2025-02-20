@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellenBMS46/hellenBMS46/hellenbms46.kicad_sch</source>
-    <date>2025-02-20T16:15:38+0000</date>
+    <date>2025-02-20T16:44:34+0000</date>
     <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -693,7 +693,6 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="rusefi"/>
       <property name="Sheetfile" value="rusefi.kicad_sch"/>
-      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/rusefi/" tstamps="/908e7c38-dd3a-46e3-88c1-4637776bd8a8/"/>
@@ -711,7 +710,6 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="rusefi"/>
       <property name="Sheetfile" value="rusefi.kicad_sch"/>
-      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/rusefi/" tstamps="/908e7c38-dd3a-46e3-88c1-4637776bd8a8/"/>
@@ -729,7 +727,6 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="rusefi"/>
       <property name="Sheetfile" value="rusefi.kicad_sch"/>
-      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/rusefi/" tstamps="/908e7c38-dd3a-46e3-88c1-4637776bd8a8/"/>
@@ -747,7 +744,6 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="rusefi"/>
       <property name="Sheetfile" value="rusefi.kicad_sch"/>
-      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/rusefi/" tstamps="/908e7c38-dd3a-46e3-88c1-4637776bd8a8/"/>
@@ -765,7 +761,6 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="rusefi"/>
       <property name="Sheetfile" value="rusefi.kicad_sch"/>
-      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/rusefi/" tstamps="/908e7c38-dd3a-46e3-88c1-4637776bd8a8/"/>
@@ -783,7 +778,6 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="rusefi"/>
       <property name="Sheetfile" value="rusefi.kicad_sch"/>
-      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/rusefi/" tstamps="/908e7c38-dd3a-46e3-88c1-4637776bd8a8/"/>
@@ -801,7 +795,6 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="rusefi"/>
       <property name="Sheetfile" value="rusefi.kicad_sch"/>
-      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/rusefi/" tstamps="/908e7c38-dd3a-46e3-88c1-4637776bd8a8/"/>
@@ -819,7 +812,6 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="rusefi"/>
       <property name="Sheetfile" value="rusefi.kicad_sch"/>
-      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/rusefi/" tstamps="/908e7c38-dd3a-46e3-88c1-4637776bd8a8/"/>
@@ -837,7 +829,6 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="rusefi"/>
       <property name="Sheetfile" value="rusefi.kicad_sch"/>
-      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/rusefi/" tstamps="/908e7c38-dd3a-46e3-88c1-4637776bd8a8/"/>
@@ -855,7 +846,6 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="rusefi"/>
       <property name="Sheetfile" value="rusefi.kicad_sch"/>
-      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/rusefi/" tstamps="/908e7c38-dd3a-46e3-88c1-4637776bd8a8/"/>
