@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellenBMS46/hellenBMS46/hellenbms46.kicad_sch</source>
-    <date>2025-02-20T15:49:27+0000</date>
+    <date>2025-02-20T16:15:38+0000</date>
     <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -513,7 +513,6 @@
       <libsource lib="134pin_7-967288-1_KC5" part="134pin_7-967288-1_KC5" description="134pin_7-967288-1_KC5"/>
       <property name="Sheetname" value="conn"/>
       <property name="Sheetfile" value="conn.kicad_sch"/>
-      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/conn/" tstamps="/6bddff48-9623-45eb-b2bf-a86873f5d3f3/"/>
       <tstamps>7790ff02-2f19-4da5-93b6-feb5b30ef4fa 6cf49271-ff20-4a87-bbab-371f3c93cb21 e16a0f5a-a7b6-4dfc-83f3-4f81c0d2e701 6dac6d0d-f1e0-4552-9b91-b5c95bd42e2b 476b445b-2273-41b9-a5e2-cf5ef138e302</tstamps>
