@@ -2102,6 +2102,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C636893"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddc46d86-bdbc-4bbf-a7dd-158373c94bb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*SO*3.9*4.*P1.27mm*")
 		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/296cd511-30ea-48f7-9a87-d74fd8bc0a77/e894b17c-96e2-4250-816a-74940def7873")
 		(sheetname "OUT PP1")
@@ -2614,6 +2627,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fceec397-bd2b-4bab-94db-18722c67e507")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/52673bc5-28b9-4a7e-9fdc-f70a17ec8d34/46fbd283-53c6-4942-8e3a-0d0fc068b986")
 		(sheetname "OUT PP")
@@ -2671,7 +2697,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "1259cf2b-9a2b-492c-a925-d7f6cc7e22a4")
-		(at 71 146.7)
+		(at 128.5 95)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3008"
@@ -3885,6 +3911,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0815c231-119a-4641-823e-b5355d88b98c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/52673bc5-28b9-4a7e-9fdc-f70a17ec8d34/7a3a5051-d03b-4d08-9ccf-2d4818453a93")
 		(sheetname "OUT PP")
@@ -5007,7 +5046,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C462128"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5365,7 +5404,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "3bb92392-671c-4748-9c9c-298d567a1298")
-		(at 144.475 171.905)
+		(at 200.025 125.905)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U8001"
@@ -5755,6 +5794,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C597285"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05dfb57c-ee5f-4b60-8024-a69ad140ac46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/296cd511-30ea-48f7-9a87-d74fd8bc0a77/1774e461-d577-4012-b670-ac86f7f9d771")
 		(sheetname "OUT PP1")
@@ -5913,7 +5965,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "3e238ff5-f60f-46b4-ae7a-1f24c98383fe")
-		(at 66.65 146.7)
+		(at 139 133)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3001"
@@ -6315,40 +6367,42 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "hellen-one-common:C0805"
 		(layer "F.Cu")
 		(uuid "4096a52b-b80d-4f11-8a84-920dcb28c98a")
 		(at 179.8042 78.9776)
-		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "capacitor")
+		(descr "Capacitor SMD 0805")
 		(property "Reference" "C6002"
-			(at 0 -1.43 0)
+			(at -1 -1 0)
+			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "9252e622-64c2-4560-8a55-013cb9970fa6")
+			(uuid "3442049b-4a5c-4ced-907b-11b1551aaade")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.82 0.82)
+					(thickness 0.17)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.43 0)
-			(layer "F.Fab")
-			(uuid "50f0c8bf-cc58-4167-8831-618e01a2d2e9")
+			(at 0 2.1 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2f2357ee-a7b6-4602-a35d-0c0d1e930667")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "hellen-one-common:C0805"
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dcf90234-c07e-48c4-840e-0456b4e43a88")
+			(uuid "d3efe4aa-b971-4be1-895f-994bf839c9bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6358,10 +6412,9 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "105ba317-60c4-4dd0-a479-76d6603b9869")
+			(uuid "5e000722-a009-45ca-ba15-b626cf2654a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6371,13 +6424,25 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd262cc3-e762-4a60-b0b7-5c3553d4a648")
+			(uuid "05cca592-00a5-4655-9dc0-b98dd1582593")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35125a56-f4a5-4c4f-af99-a0ee98197e64")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6386,139 +6451,37 @@
 		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/fd7b0d96-5428-4c2c-8651-d380ef93928b/796b06aa-45f1-4d4f-b8aa-9b678cd1426b")
 		(sheetname "KnockAmps")
 		(sheetfile "knockamps.kicad_sch")
-		(attr smd)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
+			(start 0 -0.5)
+			(end 0 0.5)
 			(stroke
-				(width 0.12)
+				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e587a211-81ed-449e-8412-63ea4acadf74")
-		)
-		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3953245e-37d0-4700-85e4-9033099d666d")
-		)
-		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "97c31415-7d6f-4359-a512-20e8df7414c1")
-		)
-		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "350f950a-51b0-4deb-aec1-906b00bd4dd1")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8058ab93-b19d-4e53-aa32-1b4660a3a172")
-		)
-		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d6c4f150-8f09-4aee-bc11-28b391be0eeb")
-		)
-		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2ecddfff-4175-48c7-b2b0-06341cad2c80")
-		)
-		(fp_line
-			(start -0.8 0.4)
-			(end -0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "14256e6b-f74e-4c1a-a464-847f490516a9")
-		)
-		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "09627029-8158-46b4-8bd2-de221c0e2d0b")
-		)
-		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7a8df8ef-23e2-4100-9f1c-c33f5c383b79")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "37570f0c-3cc3-404c-9830-a2c840abefcc")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
+			(uuid "2425cdae-46df-4bfe-9de6-51e44a5e295d")
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
-			(size 0.9 0.95)
+			(at -1 0)
+			(size 1 1.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.1)
 			(net 2 "Net-(U6001A--)")
 			(pintype "passive")
-			(uuid "dd295770-ceef-4ae9-b4b4-97961fde8551")
+			(uuid "3468fea6-f7e7-4364-b9e1-342493dfbb7d")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
-			(size 0.9 0.95)
+			(at 1 0)
+			(size 1 1.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.1)
 			(net 147 "/rusefi/KnockAmps/KNOCK_HP1")
 			(pintype "passive")
-			(uuid "0678c407-6387-46c0-bfef-20c658466130")
+			(uuid "7d2f2c1d-a897-493e-80eb-6ecb399680d7")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+		(model ":hellen-one-models:0805 cap.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -0.65 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -7068,7 +7031,7 @@
 	(footprint "hellen-one-common:R0603"
 		(layer "F.Cu")
 		(uuid "4d5a1fa6-c4b5-4b49-835e-cf33b33aa30d")
-		(at 150.35 173)
+		(at 205.9 127)
 		(property "Reference" "R8003"
 			(at -1.235559 -0.653823 0)
 			(unlocked yes)
@@ -7261,6 +7224,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34921a59-0c40-47b1-b384-65bd9ab25d50")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8963,7 +8939,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C462128"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9737,7 +9713,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "59e769bf-4b52-4833-901a-86d9b3bd6a0b")
-		(at 66.65 133.65)
+		(at 174.5 119)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3003"
@@ -9913,40 +9889,42 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "hellen-one-common:C0805"
 		(layer "F.Cu")
 		(uuid "5fd16377-8c63-4b21-aaad-b7de5565210e")
 		(at 187.208 83.1432)
-		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "capacitor")
+		(descr "Capacitor SMD 0805")
 		(property "Reference" "C6003"
-			(at 0 -1.43 0)
+			(at -1 -1 0)
+			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "d98b1906-1c97-436b-83be-63881c6de6a8")
+			(uuid "490354f0-fa6b-4b88-a446-2ace1752a337")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.82 0.82)
+					(thickness 0.17)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.43 0)
-			(layer "F.Fab")
-			(uuid "23650ac7-8e25-4b9e-ab8a-ea0c7dfb064a")
+			(at 0 2.1 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3a98177e-198c-4302-b231-c351300a1b6d")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "hellen-one-common:C0805"
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a406ff77-9c22-43e9-87e8-991ed9f7f657")
+			(uuid "aa4619e9-9add-4d20-8dfa-2c656da9af17")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9956,10 +9934,9 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af81bc2e-901f-4866-b331-4fd219526317")
+			(uuid "840b6564-14dd-49ea-a385-098c1918880c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9969,13 +9946,25 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77123ac6-a584-40f3-968f-203c0654f3ee")
+			(uuid "fae39722-f87b-4375-a4dc-18d34d4a1829")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c71ccd0-595f-48e8-897c-27346613e4b0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9984,139 +9973,37 @@
 		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/fd7b0d96-5428-4c2c-8651-d380ef93928b/a9343b9a-fe2e-4363-a4a5-bf1f5d21f646")
 		(sheetname "KnockAmps")
 		(sheetfile "knockamps.kicad_sch")
-		(attr smd)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
+			(start 0 -0.5)
+			(end 0 0.5)
 			(stroke
-				(width 0.12)
+				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f0a95ceb-79ce-437f-b4f7-8715a75a6692")
-		)
-		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5dba1bc2-fb56-4257-8c8e-64059a37daca")
-		)
-		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b54ad202-21a1-4fa2-a96e-6963ce123cbc")
-		)
-		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a54fd7a9-420a-49ef-94db-62f82e416cd6")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0a868de7-e65e-40be-924e-ecf1b20fc46a")
-		)
-		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "dfadc4aa-5629-45b0-a19f-7ca8baa54229")
-		)
-		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "47157cec-5d67-4daa-82fc-6cedbf73eb34")
-		)
-		(fp_line
-			(start -0.8 0.4)
-			(end -0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "da264618-98bf-496c-b4f9-941ae67c83b8")
-		)
-		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "93376f6b-beaf-4658-aa1c-94d1d00459fc")
-		)
-		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "86e4d5f2-808a-43e1-91e2-35a54da1bcf6")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "d8ebe4c1-5cf2-48d0-999c-99e750fe4bac")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
+			(uuid "ffb5a6a5-9d9b-467c-a55e-63f27adb2343")
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
-			(size 0.9 0.95)
+			(at -1 0)
+			(size 1 1.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.1)
 			(net 3 "Net-(U6001B--)")
 			(pintype "passive")
-			(uuid "3b47f12f-6411-4d5a-a41b-290cd878e222")
+			(uuid "f392e016-f60f-48b8-a806-ae937c27a046")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
-			(size 0.9 0.95)
+			(at 1 0)
+			(size 1 1.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.1)
 			(net 149 "/rusefi/KnockAmps/KNOCK_HP2")
 			(pintype "passive")
-			(uuid "7d251995-fd27-4ada-9fb9-9dc6daca3ee9")
+			(uuid "e7a33c39-254d-495d-b269-92c899f76c51")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+		(model ":hellen-one-models:0805 cap.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -0.65 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -10189,6 +10076,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daec3c49-d296-440d-9339-a651a52f04ac")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11170,6 +11070,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18086361-3a9d-41b6-8d31-49bdd9163647")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/296cd511-30ea-48f7-9a87-d74fd8bc0a77/46fbd283-53c6-4942-8e3a-0d0fc068b986")
 		(sheetname "OUT PP1")
@@ -11420,6 +11333,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "447d4c5f-e7a6-4f5c-aefd-f7402611581a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11825,6 +11751,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C636893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b04ee852-d5e9-4ea6-adaa-571c1720b0f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*SO*3.9*4.*P1.27mm*")
 		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/52673bc5-28b9-4a7e-9fdc-f70a17ec8d34/e894b17c-96e2-4250-816a-74940def7873")
 		(sheetname "OUT PP")
@@ -12142,6 +12081,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0b9cf63-4aae-4ad8-8322-322a0847c1d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/52673bc5-28b9-4a7e-9fdc-f70a17ec8d34/d71209b0-0027-49ed-87f1-f2f4200e641c")
 		(sheetname "OUT PP")
@@ -12394,7 +12346,7 @@
 	(footprint "hellen-one-common:R0603"
 		(layer "F.Cu")
 		(uuid "83cb88c2-200a-4069-8208-485e5044b984")
-		(at 150.35 169.526595)
+		(at 205.9 123.526595)
 		(property "Reference" "R8001"
 			(at -1.235559 -0.653823 0)
 			(unlocked yes)
@@ -13590,7 +13542,7 @@
 	(footprint "hellen-one-common:R0603"
 		(layer "F.Cu")
 		(uuid "88606e41-4d2e-437f-8f26-f7b05bff0775")
-		(at 122.825 166.015)
+		(at 124.8 126.92)
 		(property "Reference" "R8002"
 			(at -1.235559 -0.653823 0)
 			(unlocked yes)
@@ -13723,7 +13675,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "8b18e911-6b0e-4c8b-bf2d-ff916fa081f1")
-		(at 71 138)
+		(at 127 100.5)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3009"
@@ -14099,7 +14051,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C462128"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19336,7 +19288,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C462128"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20717,7 +20669,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "b18d656d-585c-42a7-96b2-1e4e8b5d6ded")
-		(at 71 129.3)
+		(at 138 93.5)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3007"
@@ -20896,7 +20848,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "b3c35d06-70b3-4ff9-80f6-c4ca2237dd9a")
-		(at 71 133.65)
+		(at 173.5 124.5)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3006"
@@ -21075,7 +21027,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "b446f0c0-1c87-4e93-a0b7-c98174a363a7")
-		(at 66.65 129.3)
+		(at 173.5 114.5)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3002"
@@ -21254,7 +21206,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "b850ca81-f909-4fa3-9e26-166f1bf5b068")
-		(at 71 142.35)
+		(at 125.5 114.5)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3010"
@@ -21692,6 +21644,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d472549-1060-4495-a84f-a048da310f05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/296cd511-30ea-48f7-9a87-d74fd8bc0a77/280b63e2-18ae-456c-80cd-8794d7cc9797")
 		(sheetname "OUT PP1")
@@ -21746,40 +21711,42 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "hellen-one-common:C0805"
 		(layer "F.Cu")
 		(uuid "c18ffc57-6f2f-452b-9a4b-a07d49d984a2")
 		(at 187.1572 80.6032)
-		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "capacitor")
+		(descr "Capacitor SMD 0805")
 		(property "Reference" "C6001"
-			(at 0 -1.43 0)
+			(at -1 -1 0)
+			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "817ae4cd-73c1-4d66-87dd-6eda486badee")
+			(uuid "20f6d879-72f5-43de-89fe-d0838792e297")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.82 0.82)
+					(thickness 0.17)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "10n"
-			(at 0 1.43 0)
-			(layer "F.Fab")
-			(uuid "fde96d29-eb48-4440-88be-9b033fb81f2d")
+			(at 0 2.1 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "51976315-c770-4c69-8608-51fc7fdf2ccb")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "hellen-one-common:C0805"
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "156abe78-3487-437b-8e4e-47843b7b1604")
+			(uuid "0dc804c9-cef5-46ed-860c-ef0e7f082117")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21789,10 +21756,9 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "075fee6a-33e4-4ea5-9fe1-c4aceaae680b")
+			(uuid "f9835d8c-4e0c-4333-94f3-7201cc46e266")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21802,13 +21768,25 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d4c6ed7-d43d-46c8-890c-5dcb85ea0fb7")
+			(uuid "90b249f2-f987-4423-9c0a-da65138a5065")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C597285"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a5bb379-0dbb-4e71-b4ca-1d73f4b86802")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21817,139 +21795,37 @@
 		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/fd7b0d96-5428-4c2c-8651-d380ef93928b/7542c2cf-e16c-4a98-bb0e-3147c9942fc4")
 		(sheetname "KnockAmps")
 		(sheetfile "knockamps.kicad_sch")
-		(attr smd)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
+			(start 0 -0.5)
+			(end 0 0.5)
 			(stroke
-				(width 0.12)
+				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "92f5cb73-ee48-45ec-bc12-f3d623c3b524")
-		)
-		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "40e67c72-e008-44a6-8b58-0dd6ad4b8a31")
-		)
-		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7aca7291-9102-447e-98b9-3eeccdf2fa9c")
-		)
-		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "10aa8f82-d278-4b80-ab09-8fae16b03d9a")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "11b6755a-88d0-40b8-bb40-52fc68a43fe0")
-		)
-		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "03f34477-a0b4-4757-94fe-25f739ecbf1e")
-		)
-		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7dc5f9a3-8357-444c-8bb2-5bb4b1465040")
-		)
-		(fp_line
-			(start -0.8 0.4)
-			(end -0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "71ab4dac-ef2d-4a9c-a4ed-4436047142a6")
-		)
-		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cbd61819-bf71-4d44-a9a9-5ab79f3d5637")
-		)
-		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e008803c-dc2e-4f4a-8ab1-f7be9d519e46")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "e4638b46-4153-410f-bd96-80dfc5a0cce5")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
+			(uuid "9c65f1a8-61fc-4920-aba8-abd586656b8b")
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
-			(size 0.9 0.95)
+			(at -1 0)
+			(size 1 1.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.1)
 			(net 146 "+5VA")
 			(pintype "passive")
-			(uuid "875c7a23-9b44-4cbf-ad64-6823ee90f59d")
+			(uuid "d123b1f6-1919-48e4-abac-9e2ad9521376")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
-			(size 0.9 0.95)
+			(at 1 0)
+			(size 1 1.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.1)
 			(net 93 "GND")
 			(pintype "passive")
-			(uuid "a2c20c6c-ca5d-4bdb-bdd8-596b8aa0166a")
+			(uuid "dc59ea8f-d052-43d6-828e-d4f3f5aa57dc")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+		(model ":hellen-one-models:0805 cap.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -0.65 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -21962,7 +21838,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "c21cb802-5758-4008-b828-7f9d6f164ad8")
-		(at 66.65 142.35)
+		(at 178 103)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3005"
@@ -22252,7 +22128,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "c6632957-89d2-40a4-9b5f-fb778faf94a1")
-		(at 117.5 165.5)
+		(at 119.475 126.405)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U8002"
@@ -22990,7 +22866,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "cb277c51-a1a5-4425-a176-094c8b52005b")
-		(at 66.65 138)
+		(at 174 107)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3004"
@@ -23743,6 +23619,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C597285"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c2569d4-e9d3-4be3-a6ed-2268308e9cff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/52673bc5-28b9-4a7e-9fdc-f70a17ec8d34/1774e461-d577-4012-b670-ac86f7f9d771")
 		(sheetname "OUT PP")
@@ -23854,8 +23743,21 @@
 				)
 			)
 		)
+		(property "LCSC" "C636235"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebf4d34c-9457-4393-95d1-cbced18e8ebb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/fd7b0d96-5428-4c2c-8651-d380ef93928b/e7d7b6f5-b383-4b51-a0ee-a37f6329dd7e")
+		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/fd7b0d96-5428-4c2c-8651-d380ef93928b/cfde4386-84f2-4208-ba61-5087ad48ac08")
 		(sheetname "KnockAmps")
 		(sheetfile "knockamps.kicad_sch")
 		(attr smd)
@@ -66469,6 +66371,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C440198"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a412f8c-2c95-400e-be0e-a641d8170bdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/52673bc5-28b9-4a7e-9fdc-f70a17ec8d34/697d2e94-8b32-4539-a64a-440f65967096")
 		(sheetname "OUT PP")
@@ -66984,7 +66899,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C462128"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67475,7 +67390,7 @@
 	(footprint "hellen-one-common:R0603"
 		(layer "F.Cu")
 		(uuid "ebca39e3-4420-43a8-a6e4-ade3b1575a6c")
-		(at 123.025 163.515)
+		(at 125 124.42)
 		(property "Reference" "R8004"
 			(at -1.235559 -0.653823 0)
 			(unlocked yes)
@@ -67672,6 +67587,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C597285"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a4ba7fa-a1dd-4daf-85fb-38165e64c5a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/908e7c38-dd3a-46e3-88c1-4637776bd8a8/296cd511-30ea-48f7-9a87-d74fd8bc0a77/57109b3d-4cb1-4885-a2bf-1208a7cf1142")
 		(sheetname "OUT PP1")
@@ -67779,6 +67707,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "649aa413-1113-438f-b1e3-563ed0215c66")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -67900,6 +67841,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C597285"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4d195eb-4f6f-4d11-8a83-788b1cac1181")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
