@@ -517,7 +517,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -691,6 +691,26 @@
     [
       "fd7b0d96-5428-4c2c-8651-d380ef93928b",
       "KnockAmps"
+    ],
+    [
+      "d3808a3e-fc8a-4a2b-8ff8-2bed10753877",
+      "OUT LS"
+    ],
+    [
+      "07170136-c2a9-4d00-b685-d7de2b475484",
+      "OUT LS1"
+    ],
+    [
+      "52673bc5-28b9-4a7e-9fdc-f70a17ec8d34",
+      "OUT PP"
+    ],
+    [
+      "296cd511-30ea-48f7-9a87-d74fd8bc0a77",
+      "OUT PP1"
+    ],
+    [
+      "9c8c4151-ea15-447f-8742-87c3fa5416e4",
+      "NBO2H"
     ]
   ],
   "text_variables": {}

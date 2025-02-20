@@ -395,6 +395,140 @@
 				)
 			)
 		)
+		(symbol "hellen-one-common:Jumper-Pad-Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "Jumper-Pad-Pad"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "hellen-one-common:PAD-0805-PAD"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C17477"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper-Pad-Pad_0_1"
+				(circle
+					(center -2.54 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Jumper-Pad-Pad_1_0"
+				(rectangle
+					(start -2.54 -1.27)
+					(end 2.54 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "hellen-one-common:Res"
 			(pin_numbers hide)
 			(exclude_from_sim no)
@@ -503,9 +637,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -579,8 +713,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -806,7 +940,7 @@
 		)
 		(uuid "f72acfa4-d7bb-4339-a51e-63e5b7a5da37")
 	)
-	(text "Remove R20-R22, R26-R28, and install Q7-Q12 for use with dumb coils"
+	(text "Dumb coils use Q4001-Q4004, R4001, R4002, R4003, R4007\nCOP or external igniter use R4004, R4005, R4006, R4008\n"
 		(exclude_from_sim no)
 		(at 106.68 58.42 0)
 		(effects
@@ -969,7 +1103,7 @@
 				(hide yes)
 			)
 		)
-		(property "MyComment" "DNP"
+		(property "MyComment" ""
 			(at 114.3 129.54 0)
 			(effects
 				(font
@@ -1114,95 +1248,6 @@
 	)
 	(symbol
 		(lib_id "hellen-one-common:Res")
-		(at 182.88 64.77 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d29929e-b36b-4b64-a56a-89b017c4f1d8")
-		(property "Reference" "R14"
-			(at 177.4796 62.1253 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 177.8 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 179.07 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25469"
-			(at 182.88 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "237aeea2-4343-45cc-a42b-336f8ebcfac0")
-		)
-		(pin "2"
-			(uuid "2c45bbf2-ac65-450e-844a-a6a5616bcd90")
-		)
-		(instances
-			(project "proteus81harley"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-			(project "proteus81harley"
-				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/9b0b4a5a-9407-413d-9bb4-c60fbda7f3a8"
-					(reference "R4008")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
 		(at 125.73 97.79 0)
 		(mirror x)
 		(unit 1)
@@ -1334,7 +1379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 135.89 0)
 			(effects
 				(font
@@ -1378,95 +1423,6 @@
 			(project "ign_quad"
 				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 135.89 64.77 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d8fcbb1-83ee-47b7-beeb-af6bdb5cc54b")
-		(property "Reference" "R14"
-			(at 130.4896 62.1253 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 130.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 132.08 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25469"
-			(at 135.89 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7c8df4b-c23e-46ed-9d96-9a7a7d330e9a")
-		)
-		(pin "2"
-			(uuid "40c2d410-cb2d-4506-9f03-f1e7695c5a9a")
-		)
-		(instances
-			(project "proteus81harley"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-			(project "proteus81harley"
-				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/9b0b4a5a-9407-413d-9bb4-c60fbda7f3a8"
-					(reference "R4004")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -1536,7 +1492,7 @@
 				(hide yes)
 			)
 		)
-		(property "MyComment" "DNP"
+		(property "MyComment" ""
 			(at 114.3 73.66 0)
 			(effects
 				(font
@@ -1743,7 +1699,7 @@
 				(hide yes)
 			)
 		)
-		(property "MyComment" "DNP"
+		(property "MyComment" ""
 			(at 114.3 101.6 0)
 			(effects
 				(font
@@ -1792,99 +1748,6 @@
 			(project "ign_quad"
 				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
 					(reference "Q?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7252f413-2c52-44cd-8b56-4d5887f95d93")
-		(property "Reference" "#PWR?"
-			(at 118.11 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e708ed2e-5a15-4373-bc08-4b0dc96759db")
-		)
-		(instances
-			(project "hellen-hyundai-pb-154"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "DUMB_COILS4"
-				(path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "hellen-hyundai-pb-154"
-				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/9b0b4a5a-9407-413d-9bb4-c60fbda7f3a8"
-					(reference "#PWR04001")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-			(project "ign_quad"
-				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2037,7 +1900,7 @@
 				(hide yes)
 			)
 		)
-		(property "MyComment" "DNP"
+		(property "MyComment" ""
 			(at 161.29 73.66 0)
 			(effects
 				(font
@@ -2086,6 +1949,166 @@
 			(project "ign_quad"
 				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
 					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Jumper-Pad-Pad")
+		(at 130.81 92.71 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "766c8de3-4114-4da5-8fe5-b5d94fd29e2b")
+		(property "Reference" "JP4002"
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hellen-one-common:PAD-0805-PAD"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dc12c7a-f7c2-4d8a-928e-7f6dae725206")
+		)
+		(pin "2"
+			(uuid "bee4424e-44ac-4d61-9ef2-8dfbd382d026")
+		)
+		(instances
+			(project "hellenbms46"
+				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/9b0b4a5a-9407-413d-9bb4-c60fbda7f3a8"
+					(reference "JP4002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Jumper-Pad-Pad")
+		(at 130.81 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8634b032-b12b-49dc-9c8b-634158cb8481")
+		(property "Reference" "JP4003"
+			(at 121.92 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 97.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hellen-one-common:PAD-0805-PAD"
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b88df3c8-cdfa-4f32-8ba8-ca732fa303a1")
+		)
+		(pin "2"
+			(uuid "acfff8bb-8fda-40c8-8768-bb0f2c91a162")
+		)
+		(instances
+			(project "hellenbms46"
+				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/9b0b4a5a-9407-413d-9bb4-c60fbda7f3a8"
+					(reference "JP4003")
 					(unit 1)
 				)
 			)
@@ -2176,6 +2199,152 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 118.11 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9b6ec4b-f783-4e76-b5e5-3676e884b05a")
+		(property "Reference" "#PWR04001"
+			(at 118.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c3e743f-131c-4bae-86b6-8b897a3e4647")
+		)
+		(instances
+			(project "hellenbms46"
+				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/9b0b4a5a-9407-413d-9bb4-c60fbda7f3a8"
+					(reference "#PWR04001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Jumper-Pad-Pad")
+		(at 177.8 64.77 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2caeacc-ebab-4d1f-a7d3-a18ec53edc38")
+		(property "Reference" "JP4004"
+			(at 168.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hellen-one-common:PAD-0805-PAD"
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a1230fa-5139-4a85-b5e8-7b80687b6957")
+		)
+		(pin "2"
+			(uuid "03f562a9-b146-4527-9953-0335ce697bf1")
+		)
+		(instances
+			(project "hellenbms46"
+				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/9b0b4a5a-9407-413d-9bb4-c60fbda7f3a8"
+					(reference "JP4004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 165.1 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2218,7 +2387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 165.1 81.28 0)
 			(effects
 				(font
@@ -2262,95 +2431,6 @@
 			(project "ign_quad"
 				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 135.89 92.71 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b64c2954-40ec-410c-967b-bb767c9d2d61")
-		(property "Reference" "R14"
-			(at 130.4896 90.0653 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 130.81 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 132.08 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25469"
-			(at 135.89 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "088835d9-ca5c-417c-9f0b-b57b199d81c7")
-		)
-		(pin "2"
-			(uuid "242151d4-eb90-45c9-aa4b-13cfc11e6fa6")
-		)
-		(instances
-			(project "proteus81harley"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-			(project "proteus81harley"
-				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/9b0b4a5a-9407-413d-9bb4-c60fbda7f3a8"
-					(reference "R4005")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -2433,7 +2513,7 @@
 			)
 			(project "proteus81harley"
 				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/9b0b4a5a-9407-413d-9bb4-c60fbda7f3a8"
-					(reference "R4007")
+					(reference "R4004")
 					(unit 1)
 				)
 			)
@@ -2489,7 +2569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 107.95 0)
 			(effects
 				(font
@@ -2533,95 +2613,6 @@
 			(project "ign_quad"
 				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 135.89 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d71fc2d7-dd8f-4925-852c-43d62c8995bf")
-		(property "Reference" "R14"
-			(at 130.4896 118.0053 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 130.81 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 132.08 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25469"
-			(at 135.89 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12a970ce-b08a-46ef-9be3-86481194fc09")
-		)
-		(pin "2"
-			(uuid "16aea383-c131-4d12-a395-0a6549533476")
-		)
-		(instances
-			(project "proteus81harley"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-			(project "proteus81harley"
-				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/9b0b4a5a-9407-413d-9bb4-c60fbda7f3a8"
-					(reference "R4006")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2705,6 +2696,86 @@
 			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
 					(reference "F8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Jumper-Pad-Pad")
+		(at 130.81 64.77 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eddf13e5-68d1-4caa-a650-c1716d114bcd")
+		(property "Reference" "JP4001"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 97.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hellen-one-common:PAD-0805-PAD"
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e168633-f717-4068-8cbd-068f19021c30")
+		)
+		(pin "2"
+			(uuid "fd9a4338-f49d-4f99-874d-d7a350cfc084")
+		)
+		(instances
+			(project "hellenbms46"
+				(path "/92ba706f-34f7-46cd-af88-2e1ff7aca489/908e7c38-dd3a-46e3-88c1-4637776bd8a8/9b0b4a5a-9407-413d-9bb4-c60fbda7f3a8"
+					(reference "JP4001")
 					(unit 1)
 				)
 			)
