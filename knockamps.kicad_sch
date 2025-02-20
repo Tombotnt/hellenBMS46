@@ -1583,6 +1583,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C636235"
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "08f7555e-9d7f-486c-b027-0444d9915d7f")
 		)
@@ -1710,7 +1719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "hellen-one-common:C0805"
 			(at 154.6352 90.17 0)
 			(effects
 				(font
@@ -1729,6 +1738,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C597285"
 			(at 153.67 86.36 0)
 			(effects
 				(font
@@ -1778,7 +1796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "hellen-one-common:C0805"
 			(at 226.06 72.6948 0)
 			(effects
 				(font
@@ -1797,6 +1815,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 222.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
 			(at 222.25 73.66 0)
 			(effects
 				(font
@@ -1908,7 +1935,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9343b9a-fe2e-4363-a4a5-bf1f5d21f646")
 		(property "Reference" "C6003"
-			(at 222.25 92.7565 90)
+			(at 222.25 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,14 +1943,14 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 222.25 95.1808 90)
+			(at 222.25 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "hellen-one-common:C0805"
 			(at 226.06 98.0948 0)
 			(effects
 				(font
@@ -1942,6 +1969,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 222.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
 			(at 222.25 99.06 0)
 			(effects
 				(font
@@ -2076,6 +2112,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
+			(at 203.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C636235"
 			(at 203.2 73.66 0)
 			(effects
 				(font
@@ -2229,6 +2274,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
+			(at 203.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C636235"
 			(at 203.2 99.06 0)
 			(effects
 				(font
